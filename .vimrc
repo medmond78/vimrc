@@ -80,6 +80,10 @@ let mapleader = ','
 
 nmap <Leader>ev :tabedit $MYVIMRC<cr>
 nmap <Leader>td :tabedit $HOME/todo.txt<cr>
+:imap kj <ESC>
+:imap jk <ESC>
+:imap ii <ESC>
+
 " Ignore case when searching
 set ignorecase
 
